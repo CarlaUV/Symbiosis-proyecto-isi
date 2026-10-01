@@ -280,6 +280,10 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-001 | NFR-Q (Disponibilidad) | La plataforma aclanzará una disponibilidad mínima del 99,5% en cada mes natural | G | - | Medida mediante comprobaciones externas cada cinco minutos | A3 v1.1 |
+| NFR-002 | NFR-I (Interfaz externa) | La plataforma se desplegará en una infraestructura en la nube gestionada por un proveedor externo | G | - | Se comprobará que puede soportar un nivel alto de peticiones | DVA S3.3 |
+| NFR-003 | NFR-R (Seguridad) | La plataforma configurará mecanismos para realizar copias de seguridad diarias | G | - | Se realizará una prueba de restauración al menos una vez cada tres meses | DVA S3.3 |
+| NFR-200 | NFR-Q (Rendimiento) | La plataforma tendrá un periodo de mantenimineto de como máximo cuatro horas y dará un aviso de cuarenta y dos horas de antelación, en caso de superarlas será indisponibilidad por parte de la plataforma | G | - | - | ATO 2.1.5 |
+| NFR-300 | NFR-R (Resticciones) | El cuidador que permanezca tres meses sin asosiación con ningún paciente se considerará inactivo y si permanece así durante una año completo se eliminará | L | - | Se comprobará el contraste de infomación del cuidador cada año | ATO2.2.4 |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
