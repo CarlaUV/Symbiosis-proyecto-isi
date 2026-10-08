@@ -30,6 +30,10 @@ Registra los roles externos que participan en las funciones representadas. Un ac
 | --- | --- |
 | Usuario | Persona que interactua con Proyecto Simbiosis |
 | Usuario Registrado | Persona que dispone de una cuenta en la plataforma |
+| Paciente | Usuario registrado con acceso a ayuda por partede la plataforma |
+| Cuidador | Usuario registrado capacitado para ayudar a los pacientes |
+| Nutricionista | Usuario registrado capacitado para tratar a los pacientes |
+| Coordinador | Usuario registrado para modificar la plataforma |
 
 Mantén los mismos nombres en las tablas, los diagramas y las descripciones.
 
@@ -42,6 +46,11 @@ Registra los casos que aparecen en el modelo. Asigna a cada caso un identificado
 | Identificador | Nombre | Objetivo | Participantes |
 | --- | --- | --- | --- |
 | UC-05 | Actualizar perfil | Actualizar datos personales y preferencias de la cuenta propia | Actor principal: Usuario registrado. No se identifica actor de apoyo |
+| UC-01 | Registro de Usuario | Registrar a un usuario en la plataforma | Actor principal: Usuario no registrado |
+| UC-02 | Validaciones | Funciones de validación necesarias para mantener el correcto funcionamiento de la plataforma | Actor principal: La plataforma |
+| UC-03 | Iniciar sesión | Opción de inicio de sesión con una cuentra previamente registrada por parte del usuario | Actor principal: Usuario registrado |
+| UC-04 | Restablecimiento de la contraseña | Opción de restablecer la contraseña de un usuario registrado mediante un envió de un correo | Actor principal: Usuario registrado |
+| UC-06 | Validar email | Función de la plataforma para poder validar emails de los usuario registrados en la plataforma | Actor principal: La plataforma |
 
 [Indica los actores que participan. Si procede, distingue el actor principal, que busca alcanzar el objetivo del caso de uso y normalmente inicia la interacción, de los actores de apoyo, que proporcionan servicios o información al sistema.]
 
