@@ -99,7 +99,7 @@ En E1 basta con un respaldo breve del diagrama. La tabla permite ampliar la traz
 
 | Elemento del modelo | UR y FR de referencia | NFR pertinentes | Relación con los requisitos |
 | --- | --- | --- | --- |
-| UC-05 Actualizar perfil | UR-03; FR-019 | NFR-010 GLOBAL | FR-019 permite modificar datos personales y referencias, excluye alias y correos. |
+| UC-05 Actualizar perfil | UR-03; FR-019 | NFR-010 GLOBAL | FR-019 permite modificar datos personales y referencias, excluye alias y correos. NFR-010 condiciona la accesibilidad de esta función |
 
 Consulta el [catálogo canónico](../requisitos/catalogo-requisitos.md) y la [SRS](../requisitos/srs.md). Si falta una condición, indica que está pendiente de aclaración. No la presentes como un requisito confirmado.
 
